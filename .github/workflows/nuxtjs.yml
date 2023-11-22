@@ -53,9 +53,6 @@ jobs:
       - name: Logging
         run: ls ./dist
 
-      - name: Include old version
-        run: cp -r ./old ./dist/
-
       - name: Logging
         run: ls ./dist
         
