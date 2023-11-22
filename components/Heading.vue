@@ -5,7 +5,7 @@
 				<div id="text">
 					<div v-for="line in lines" class="line flex flex-row justify-between">
 						<template v-if="line.fancy">
-							<a v-for="word in line.words" class="word fancy" :href="line.url">
+							<a v-for="word in line.words" class="word fancy" :href="line.url ? line.url : 'mailto:jaessinaouani@gmail.com'">
 								<span class="letter" v-for="letter in word">{{ letter }}</span>
 							</a>
 						</template>
@@ -44,7 +44,6 @@
 		{
 			words: ["Email ->"],
 			fancy: true,
-			url: "mailto:test@google.de",
 		},
 		{
 			words: ["@probablyjassin"],
