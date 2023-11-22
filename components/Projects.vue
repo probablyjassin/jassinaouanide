@@ -27,7 +27,7 @@
 			projects.value = response.data.value;
 
 			nextTick(() => {
-				const observery = new IntersectionObserver((entries) => {
+				const observer = new IntersectionObserver((entries) => {
 					entries.forEach((entry) => {
 						if (entry.isIntersecting) {
 							entry.target.classList.add("fade");
@@ -36,7 +36,7 @@
 				});
 				const hiddenElements = document.querySelectorAll(".move");
 				hiddenElements.forEach((el) => {
-					observery.observe(el);
+					observer.observe(el);
 				});
 			})
 		});
