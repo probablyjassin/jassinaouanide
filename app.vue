@@ -8,7 +8,7 @@
 	<Heading />
 	<About />
 	<Projects />
-	<Contact />
+	<!-- <Contact /> -->
 	<Foot />
 </template>
 
