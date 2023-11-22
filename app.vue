@@ -13,19 +13,7 @@
 </template>
 
 <script setup>
-	onMounted(() => {
-		const observery = new IntersectionObserver((entries) => {
-			entries.forEach((entry) => {
-				if (entry.isIntersecting) {
-					entry.target.classList.add("fade");
-				} else {
-					entry.target.classList.remove("fade");
-				}
-			});
-		});
-		const hiddenElements = document.querySelectorAll(".move");
-		hiddenElements.forEach((el) => observery.observe(el));
-		
+	onMounted(() => {		
 		const scrollDownBtn = document.getElementById("scroll-down-btn");
 		const scrollUpBtn = document.getElementById("scroll-up-btn");
 		const observer = new IntersectionObserver((entries) => {
