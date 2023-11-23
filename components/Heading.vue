@@ -1,11 +1,11 @@
 <template>
 	<div class="header">
-		<p id="name" class="text-4xl">
+		<p id="name" class="text-5xl">
 			<client-only>
 				<div id="text">
 					<div v-for="line in lines" class="line flex flex-row justify-between">
 						<template v-if="line.fancy">
-							<a v-for="word in line.words" class="word fancy" :href="line.url ? line.url : 'mailto:jaessinaouani@gmail.com'">
+							<a v-for="word in line.words" class="word fancy" :href="line.url ? line.url : 'mailto:jassin@aouani.de'">
 								<span class="letter" v-for="letter in word">{{ letter }}</span>
 							</a>
 						</template>
