@@ -1,6 +1,6 @@
 <template>
 	<div class="header">
-		<p id="name" class="text-5xl">
+		<p id="name" class="text-4xl md:text-5xl">
 			<client-only>
 				<div id="text">
 					<div v-for="line in lines" class="line flex flex-row justify-between">
