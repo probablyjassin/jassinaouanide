@@ -3,9 +3,9 @@
 		<p id="name" class="text-4xl md:text-5xl">
 			<client-only>
 				<div id="text">
-					<div v-for="line in lines" class="line flex flex-row justify-between">
+					<div v-for="line in lines" :data-type="line.type || 'text'" class="line flex flex-row justify-between">
 						<template v-if="line.fancy">
-							<a v-for="word in line.words" class="word fancy" :href="line.url ? line.url : 'mailto:jassin@aouani.de'">
+							<a v-for="word in line.words" class="word fancy interact" :href="line.url ? line.url : 'mailto:jassin@aouani.de'">
 								<span class="letter" v-for="letter in word">{{ letter }}</span>
 							</a>
 						</template>
@@ -44,11 +44,13 @@
 		{
 			words: ["Email ->"],
 			fancy: true,
+			type: "mail"
 		},
 		{
 			words: ["@probablyjassin"],
 			fancy: true,
 			url: "https://github.com/probablyjassin",
+			type: "github"
 		},
 	];
 </script>

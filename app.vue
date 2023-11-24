@@ -8,6 +8,8 @@
 	<Projects />
 	<!-- <Contact /> -->
 	<Foot />
+
+    <!-- <Pointer /> -->
 </template>
 
 <script setup>
