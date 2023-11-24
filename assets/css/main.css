@@ -1,9 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Global */
 body {
     margin: 0;
     padding: 0;
     font-family: 'YouTube Sans', monospace;
     background-color: #111;
+}
+.icon{
+  @apply w-5 h-5
 }
 /* Navbar */
 .top-nav {

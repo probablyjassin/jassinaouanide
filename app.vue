@@ -1,8 +1,6 @@
 <template>
 	<title>Jässin Aouani - Home</title>
 	<link href="https://fonts.cdnfonts.com/css/youtube-sans" rel="stylesheet" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-	<link href="https://fonts.cdnfonts.com/css/youtube-sans" rel="stylesheet" />
 
 	<Navbar />
 	<Heading />
@@ -42,5 +40,5 @@
 </script>
 
 <style>
-	@import "~/assets/main.css";
+	@import "~/assets/css/main.css";
 </style>
