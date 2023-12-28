@@ -18,6 +18,8 @@ body {
 
 	font-family: "YouTube Sans", sans-serif;
 	font-display: swap;
+
+	scroll-behavior: smooth;
 }
 .icon {
 	@apply w-5 h-5;
