@@ -18,7 +18,7 @@
         "title": "Zukünftiger Merch-Webshop des Max-Klinger-Schulclubs",
         "subtitle": "[Work in Progress]",
         "tech": "HTML / CSS / JavaScript / Vue.js",
-        "description": " Erstellen von Bestellformularen für den Merch unserer Schule zu verbessern, bin ich für das Frontend des neuen Webshops zuständig. Dieses erstelle ich mit Vue.js als dynamische Single-Page-Application."
+        "description": "Um das erstellen von Bestellformularen für den Merch unserer Schule zu verbessern, bin ich für das Frontend des neuen Webshops zuständig. Dieses erstelle ich mit Vue.js als dynamische Single-Page-Application."
     },
     {
         "id": "chessboard",
