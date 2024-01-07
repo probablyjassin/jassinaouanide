@@ -14,7 +14,7 @@
         "description": "Erstellen eines auf einem Videospiel basierenden Quiz-Spiels, inspiriert von dem populären Wordguessing-Game 'Wordle'."
     },
     {
-        "id": "mkcmerch",
+        "id": "mkcshop",
         "title": "Zukünftiger Merch-Webshop des Max-Klinger-Schulclubs",
         "subtitle": "[Work in Progress]",
         "tech": "HTML / CSS / JavaScript / Vue.js",
