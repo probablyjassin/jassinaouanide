@@ -11,7 +11,7 @@
 					</div>
 					<client-only class="md:w-1/2">
 						<div class="hobbys flex-col">
-							<p><faIcon icon="calendar" class="icon"></faIcon>17</p>
+							<p><faIcon icon="calendar" class="icon"></faIcon>18</p>
 							<p><faIcon icon="icons" class="icon"></faIcon>Informatik, Sprachen, Musik, Schach</p>
 							<p><faIcon icon="map-marker-alt" class="icon"></faIcon>Leipzig, Deutschland</p>
 						</div>
