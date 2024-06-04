@@ -1,6 +1,7 @@
 <template>
 	<div class="header">
-		<p id="name" class="text-4xl md:text-5xl">
+		<img src="/images/IamProgrammerEnglish.png" alt="uwu" v-if="isFunny">
+		<p id="name" class="text-4xl md:text-5xl" v-else>
 			<client-only>
 				<div id="text">
 					<div v-for="line in lines" :data-type="line.type || 'text'" class="line flex flex-row justify-between">
@@ -28,6 +29,9 @@
 </template>
 
 <script setup>
+	const route = useRoute()
+	const isFunny = route.query.uwu
+
 	const lines = [
 		{
 			words: ["Jässin", "Aouani"],
